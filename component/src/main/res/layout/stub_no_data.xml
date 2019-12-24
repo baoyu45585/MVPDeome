@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.hisunfly.one.mvpdeome.app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/no_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:background="@color/bg_color_normal1"
+    android:visibility="gone"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/no_data_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_8dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/common_ic_empty"
+        com.hisunfly.one.mvpdeome.app:layout_constraintBottom_toTopOf="@+id/no_data_txt"
+        com.hisunfly.one.mvpdeome.app:layout_constraintLeft_toLeftOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/no_data_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:paddingLeft="69dp"
+        android:paddingRight="69dp"
+        android:text="@string/common_nodata_tips"
+        android:textColor="@color/font_color_secondary1"
+        android:textSize="@dimen/frame_font_28"
+        com.hisunfly.one.mvpdeome.app:layout_constraintBottom_toBottomOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintLeft_toLeftOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintRight_toRightOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintTop_toBottomOf="@+id/no_data_image"
+        com.hisunfly.one.mvpdeome.app:layout_constraintTop_toTopOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintVertical_bias="0.46" />
+
+    <TextView
+        android:id="@+id/no_data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/common_selector_btn_corner_18"
+        android:gravity="center"
+        android:paddingLeft="36dp"
+        android:paddingTop="9dp"
+        android:paddingRight="36dp"
+        android:paddingBottom="9dp"
+        android:textColor="@color/font_color_normal2"
+        android:textSize="@dimen/frame_font_32"
+        android:visibility="gone"
+        com.hisunfly.one.mvpdeome.app:layout_constraintLeft_toLeftOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintRight_toRightOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintTop_toBottomOf="@+id/no_data_txt"
+        tools:text="去拍摄"
+        tools:visibility="visible" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.hisunfly.one.mvpdeome.app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clayout_loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:background="@color/bg_color_normal1"
+    android:visibility="gone"
+    tools:visibility="visible">
+
+    <ProgressBar
+        android:id="@+id/progress_loading"
+        style="@style/Progress_Loading"
+        com.hisunfly.one.mvpdeome.app:layout_constraintBottom_toBottomOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintLeft_toLeftOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintRight_toRightOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_loading_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/common_loading_txt_tips"
+        android:visibility="invisible"
+        android:textColor="@color/font_color_secondary1"
+        android:paddingLeft="69dp"
+        android:paddingRight="69dp"
+        android:textSize="@dimen/frame_font_28"
+        com.hisunfly.one.mvpdeome.app:layout_constraintLeft_toLeftOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintRight_toRightOf="parent"
+        com.hisunfly.one.mvpdeome.app:layout_constraintTop_toBottomOf="@+id/progress_loading" />
+
+</android.support.constraint.ConstraintLayout>

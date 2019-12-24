@@ -1,0 +1,453 @@
+<resources>
+
+
+    <!--Main相关-->
+    <string name="home_main_tab_home">首页</string>
+    <string name="home_main_tab_fun_chat">叽咕</string>
+    <string name="home_main_tab_message">消息</string>
+    <string name="home_main_tab_mine">我的</string>
+
+    <string name="common_no_more_tips">当当当~已经到底啦~</string>
+    <string name="common_no_more_tips2">当当当~已经到底啦~</string>
+    <string name="common_load_fail_tips">网络君累趴了，等会儿再试试...</string>
+    <string name="common_load_fail_tips2">网络君被吃了，怎么召唤得出？</string>
+    <string name="common_tip_reload">戳一下重新加载</string>
+    <string name="common_load_fail_bad_net">当前网络不可用，请检查你的网络设置</string>
+    <string name="common_loading_txt_tips">正在全速加载中</string>
+    <string name="common_loading_txt_tips2">正在加载，请稍候</string>
+    <string name="common_nodata_tips">不要留下咪咕酱一个人啊</string>
+    <string name="common_canot_find_anything2">全翻过了，什么都没找着Σ( ° △ °|||)</string>
+    <string name="common_canot_find_anything3">空空如也╮(╯▽╰)╭</string>
+    <string name="common_canot_find_anything4">全翻过了，什么都没找着</string>
+    <string name="common_login_right_now">立即登录</string>
+    <string name="common_need_login">签订契约解开封印！</string>
+    <string name="common_login_now">马上登录</string>
+    <string name="need_login_tip">需要先登录哦</string>
+    <string name="common_retry">重试</string>
+    <string name="common_delete">删除</string>
+
+    <!--刷新控件相关 start-->
+    <string name="common_refresh_header_complete">加载完成</string>
+    <string name="common_refresh_header_pulling">下拉有惊喜~</string>
+    <string name="common_refresh_header_release">松开立马刷新~</string>
+    <string name="common_refresh_header_refreshing">哼哧哼哧~</string>
+
+    <string name="common_refresh_header_finish">加载完成</string>
+    <string name="common_refresh_header_failed">刷新失败</string>
+    <string name="common_refresh_header_secondary">松开返回上一页~意不意外？</string>
+
+    <string name="loading_view_no_more">@string/common_no_more_tips</string>
+    <string name="loading_view_loading">正在全速加载中···</string>
+    <string name="cube_ptr_footer_pulling">上拉加载更多</string>
+
+    <!--<string name="home_water_refresh_header_pulling">下拉有惊喜~</string>-->
+    <!--<string name="home_water_refresh_header_release">松开立马刷新~</string>-->
+    <!--<string name="home_water_refresh_header_refreshing">哼哧哼哧~</string>-->
+
+
+    <string name="base_footer_no_data_tip1">没有更多了\n要不你再上拉试试～</string>
+    <string name="base_footer_no_data_tip2">嘻嘻，其实就只是让你看看\n我的大长腿～</string>
+    <!--刷新控件相关 end-->
+
+
+    <string name="common_has_attention">已关注</string>
+    <string name="common_all_attention">全部关注</string>
+    <string name="common_to_attention">关注</string>
+    <string name="common_each_attention">互为伙伴</string>
+    <string name="common_send_message">发送</string>
+    <string name="common_send_message__hint">来说几句吧(`・ω・´) ~</string>
+
+    <string name="common_search_default">别点我，我是冷酷的搜索</string>
+    <string name="common_audit_tips">咪咕酱正在加急审核，请耐心等待</string>
+
+    <string name="common_ad_guangdiantong">广点通</string>
+
+    <string name="common_licence">请升级到最新版本使用！</string>
+    <string name="common_go_back_will_give_up_mi_chat_recorded_content">返回将放弃本次叽咕消息已录制内容</string>
+    <string name="common_sure">确认</string>
+    <string name="common_cancel">取消</string>
+    <string name="action_settings">Settings</string>
+    <string name="common_loading_tips">指令已收到，正在召唤内容...</string>
+    <string name="component_dispatch">dispatch</string>
+    <string name="crop_get_error">图片获取失败</string>
+    <string name="crop_pick_error">No image sources available</string>
+    <string name="crop_save_view">保存</string>
+    <string name="crop_saving">正在处理图片，请稍候~</string>
+    <string name="crop_title">选择区域</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_more_tips">已完成所有召唤</string>
+    <string name="progressdialog_msg">加载中，请稍候</string>
+    <string name="refresh_pull_down">下拉有惊喜~</string>
+    <string name="refresh_refreshing">哼哧哼哧~</string>
+    <string name="refresh_tip_refresh">快松开~</string>
+
+    <string name="patrecord_app_name">趣拍</string>
+    <string name="patrecord_search">搜索</string>
+    <string name="patrecord_hot">热门</string>
+    <string name="patrecord_collect">收藏</string>
+    <string name="patrecord_long_time">最长可拍摄60秒</string>
+    <string name="patrecord_delete_record">确定删除上一段视频？</string>
+    <string name="patrecord_give_up_record">返回将放弃已编辑的效果</string>
+    <string name="patrecord_give_up_record_effect">是否放弃本次编辑？</string>
+    <string name="patrecord_give_up_record_cut">是否放弃当前视频裁剪？</string>
+    <string name="patrecord_give_up_record_music">是否放弃当前选择的音乐？</string>
+    <string name="patrecord_give_up_record_volum">是否放弃当前音频调节？</string>
+    <string name="patrecord_permission_camera_tip">为了趣拍录制，咪咕酱请求开启【相机】权限\n</string>
+    <string name="patrecord_isdelete_exit">退出后将放弃本次拍摄内容</string>
+    <string name="patrecord_give_up_recording">确定要放弃本次拍摄吗，未保存的视频将丢失哦~</string>
+    <string name="patrecord_draft_edit_exit">返回将放弃已编辑的内容</string>
+    <string name="patrecord_dance_edit_exit">确定放弃本次拍摄的视频并返回吗</string>
+    <string name="patrecord_draft_contiune_back">继续返回</string>
+    <string name="patrecord_draft_change_material">类型不同，不能穿越哦</string>
+    <string name="patrecord_give_up_recording_draft">是否放弃本次编辑？</string>
+    <string name="patrecord_give_up_recording_title">确定要放弃本次拍摄吗</string>
+    <string name="patrecord_give_up_recording_content">未保存的视频将丢失哦~</string>
+    <string name="patrecord_comfirm">确定</string>
+    <string name="patrecord_give_up_music">是否放弃当前的音乐修改？</string>
+    <string name="patrecord_no_support_video">暂不支持该分辨率的视频</string>
+    <string name="patrecord_no_support_type_video">暂不支持该格式的视频</string>
+    <string name="patrecord_shot_notify">把盛世美颜放进该区域中拍下正脸~</string>
+    <string name="patrecord_sure_draft">是</string>
+    <string name="patrecord_no_draft">否</string>
+    <string name="patrecord_clear_mirror">本操作将会清空已编辑的内容是否继续？</string>
+    <string name="patrecord_record_cannot_to_next">至少拍摄到9秒哦</string>
+    <string name="patrecord_record_cannot_to_next_for_premodel">这场戏还没拍完哦～</string>
+    <string name="patrecord_no_data_tip">暂无数据</string>
+    <string name="pat_music_retry">重试</string>
+    <string name="pat_music_undown_load_warn">需要音乐下载好才能开拍哦~</string>
+    <string name="pat_music_download_fail">下载音乐失败，请重试</string>
+    <string name="patrecord_collect_music_pat">开拍</string>
+
+    <string name="pat_record_dialog_goback">返回</string>
+    <string name="pat_record_dialog_stay">继续编辑</string>
+    <string name="pat_record_dialog_comfirm_quit">放弃</string>
+    <string name="pat_record_dialog_cancle">留下</string>
+
+    <string name="patrecord_contact_friend">"@好友"</string>
+    <string name="patrecord_contact_friend_title">私信给</string>
+    <string name="patrecord_recode">重拍</string>
+    <string name="patrecord_exit">退出</string>
+    <string name="patrecord_exit_comfirm">直接退出</string>
+    <string name="patrecord_cancel">取消</string>
+    <string name="patrecord_delete_this_video">是否删除该片段?</string>
+    <string name="patrecord_edit_back">返回编辑</string>
+    <string name="patrecord_record_back">返回拍摄</string>
+    <string name="patrecord_give_up">放弃</string>
+    <string name="patrecord_cancel_change_cut_video">是否退出该页面，并放弃此次编辑？</string>
+    <string name="patrecord_change">更换</string>
+    <string name="patrecord_cancel_change_music">放弃当前的音乐修改吗？</string>
+    <string name="patrecord_cancel_change_video">放弃当前的视频裁剪吗？</string>
+    <string name="patrecord_cancel_change_effect">是否清除已添加的特效？</string>
+    <string name="patrecord_public">发布趣拍</string>
+    <string name="patrecord_shot_select_pic_error">图片过小，请重新选择后上传</string>
+    <string name="patrecord_public_title_failed">未过审视频信息编辑</string>
+    <string name="patrecord_public_title_failed_no_edit">未过审视频无法返回编辑</string>
+    <string name="patrecord_public_title">取个响亮的标题更容易被推荐哦</string>
+    <string name="patrecord_public_contact">最近联系</string>
+    <string name="patrecord_public_contact_mybuddy">我的伙伴</string>
+    <string name="patrecord_public_contact_attention">全部关注</string>
+    <string name="patrecord_friendlist_mybuddy">互为伙伴</string>
+
+    <string name="patrecord_public_drafts_failed">找不到草稿数据，无法恢复现场了哦</string>
+    <string name="patrecord_public_submit_failed">还没有设置标题哦</string>
+    <string name="patrecord_public_set_cover">选封面</string>
+    <string name="patrecord_public_set_friend">"@好友"</string>
+    <string name="patrecord_public_set_channel">添加话题</string>
+    <string name="patrecord_public_set_local">添加位置</string>
+    <string name="patrecord_public_set_private">谁可以看</string>
+    <string name="patrecord_public_set_time">发布时间</string>
+    <string name="patrecord_challenge_add">添加话题</string>
+    <string name="patrecord_challenge_nobody">还没有人发起</string>
+    <string name="patrecord_public_add_channel_notify">请输入话题名称</string>
+    <string name="patrecord_public_set_draft">存草稿</string>
+    <string name="patrecord_public_set_draft_success">存草稿成功</string>
+    <string name="patrecord_tip_memory">储存空间不够啦，打扫一下再试试</string>
+    <string name="patrecord_public_set_draft_failed">存草稿失败，请检查本地存储空间噢</string>
+    <string name="patrecord_public_failed">这个标题有人用过啦~</string>
+    <string name="patrecord_public_search_friend_failed">纳尼，TA竟然不存在Σ( ° △ °|||)</string>
+    <string name="patrecord_public_set_public">发布</string>
+    <string name="patrecord_public_title_word_count">超载啦,标题字数不能大于60字</string>
+    <string name="patrecord_public_set_cover_success">封面设置成功 \\(•ㅂ•)/</string>
+    <string name="patrecord_public_set_cover_failed">封面设置失败，等会儿再试试...~</string>
+    <string name="patrecord_public_get_cover_failed">获取缩略图失败~</string>
+    <string name="patrecord_public_set_type_failed">类型不同，无法选择哦~</string>
+    <string name="patrecord_local_video">选择视频</string>
+    <string name="patrecord_cover_choice">选择封面</string>
+    <string name="patrecord_failed_compose">视频合成失败</string>
+    <string name="patrecord_no_friends">没有好友也可以搜索一下哦~</string>
+    <string name="patrecord_cover_choice_error">选择封面失败</string>
+    <string name="patrecord_back_draft_notify">该视频不支持返回编辑，是否放弃本次操作？</string>
+    <string name="patrecord_local_video_error">合成失败</string>
+    <string name="patrecord_local_video_success">合成成功</string>
+    <string name="patrecord_public_edit_draft_failed">本地上传、人脸带入或尬舞机不支持返回拍摄，是否放弃编辑</string>
+    <string name="patrecord_public_edit_effect">选择位置后，长按添加特效</string>
+    <string name="patrecord_public_edit_effect_reduce">撤销</string>
+    <string name="patrecord_public_edit_effect_name">特效</string>
+    <string name="patrecord_public_edit_cut_name">剪辑</string>
+    <string name="patrecord_public_edit_sticker_name">贴纸</string>
+    <string name="patrecord_public_mirror">总控</string>
+    <string name="patrecord_public_edit_music_name">音乐</string>
+    <string name="patrecord_public_edit_vol_name">音量</string>
+    <string name="patrecord_public_choice_music_name">曲库</string>
+    <string name="patrecord_public_edit_cut_notify">拖动视频帧以剪裁视频哦！</string>
+    <string name="patrecord_max_notify">最多只能拍摄60秒的视频哦</string>
+    <string name="patrecord_max_notify_mirror">最多只能拍摄%秒的视频哦</string>
+    <string name="patrecord_upload_pic_small_notify">图片过小，请重新选择后上传</string>
+    <string name="patrecord_upload_pic_success_notify">盛世美颜已收下，视频火速制作中</string>
+    <string name="patrecord_public_local_cut_toast">视频时长要在9秒以上哦ヾ(ﾟ∀ﾟゞ)</string>
+    <string name="patrecord_public_local_cut_toast_new">视频时长要在%s秒以上哦ヾ(ﾟ∀ﾟゞ)</string>
+    <string name="patrecord_public_local_max_cut_toast">视频时长要60秒之内哦ヾ(ﾟ∀ﾟゞ)</string>
+    <string name="patrecord_public_local_cut_toast_up">视频时长要在5分钟以下哦ヾ(ﾟ∀ﾟゞ)</string>
+    <string name="patrecord_public_local_cut_toast_liit">时长不能低于9秒哦</string>
+    <string name="pat_cut_tip_of_low_quality">您选择的视频分辨率较低哦~</string>
+    <string name="patrecord_public_time">当前从%s开始</string>
+    <string name="patrecord_public_time_min">已选取 %s秒</string>
+    <string name="patrecord_public_compose_tip">奋力处理中...</string>
+    <string name="patrecord_public_compose_min">奋力处理中... %s</string>
+    <string name="patrecord_public_compose_video">奋力合成中... 0%</string>
+    <string name="patrecord_public_challenge_count">%d个视频</string>
+    <string name="patrecord_public_controll_filter">滤镜</string>
+    <string name="patrecord_public_controll_beauty">磨皮</string>
+    <string name="patrecord_public_controll_facething">瘦脸</string>
+    <string name="patrecord_public_controll_beautys">美颜</string>
+    <string name="patrecord_public_controll_close">关闭</string>
+
+    <string name="patrecord_beauty_reset_tip_msg">是否重置所有美颜选项？</string>
+    <string name="patrecord_beauty_reset_tip_sure">确认</string>
+    <string name="patrecord_beauty_reset_tip_cancel">取消</string>
+
+    <string name="patrecord_public_effect_qimiao">奇妙</string>
+    <string name="patrecord_public_effect_jingdian">经典</string>
+    <string name="patrecord_public_effect_huiyi">回忆</string>
+    <string name="patrecord_public_effect_jiaopian">胶片</string>
+    <string name="patrecord_public_effect_jiari">假日</string>
+    <string name="patrecord_public_effect_huanghun">黄昏</string>
+    <string name="patrecord_public_effect_yinxiang">印象</string>
+    <string name="patrecord_public_effect_tongnian">童年</string>
+    <string name="patrecord_public_effect_chuxue">初雪</string>
+    <string name="patrecord_public_effect_naicha">奶茶</string>
+    <string name="patrecord_public_effect_richu">日出</string>
+    <string name="patrecord_public_effect_paomo">泡沫</string>
+    <string name="patrecord_public_effect_tianmei">甜美</string>
+    <string name="patrecord_public_effect_yinhua">樱花</string>
+    <string name="patrecord_public_effect_xiamu">夏目</string>
+    <string name="patrecord_public_effect_yuanqi">元气</string>
+    <string name="patrecord_public_effect_danya">淡雅</string>
+    <string name="patrecord_public_effect_shenmi">神秘</string>
+    <string name="patrecord_public_effect_luolita">洛丽塔</string>
+    <string name="patrecord_public_effect_riji">日记</string>
+    <string name="patrecord_public_effect_wuyu">物语</string>
+    <string name="patrecord_public_effect_hongrun">红润</string>
+    <string name="patrecord_public_effect_qingning">青柠</string>
+    <string name="patrecord_public_effect_tianrandai">天然呆</string>
+    <string name="patrecord_public_effect_jiaotang">焦糖</string>
+    <string name="patrecord_public_effect_xiyan">夕颜</string>
+    <string name="patrecord_public_effect_jk">JK</string>
+    <string name="patrecord_public_effect_gaoleng">高冷</string>
+    <string name="patrecord_public_effect_huanxiangqu">幻想曲</string>
+    <string name="patrecord_public_effect_guangyun">光晕</string>
+    <string name="patrecord_public_effect_makalong">马卡龙</string>
+    <string name="patrecord_public_effect_gaobai">告白</string>
+    <string name="patrecord_public_effect_heibai">黑白</string>
+    <string name="patrecord_public_effect_guowang">过往</string>
+    <string name="patrecord_exception_fail_api_msg">Σ(⊙▽⊙"a 糟糕！加载不出来惹</string>
+    <string name="patrecord_public_has_last_record">你有未编辑完成的视频，是否继续？</string>
+
+    <string name="patrecord_beauty_whitening_nor">美白</string>
+    <string name="patrecord_beauty_on_ruddy_nor">红润</string>
+    <string name="patrecord_beauty_grinding_nor">磨皮</string>
+    <string name="patrecord_beauty_removed_specular_nor">去高光</string>
+    <string name="patrecord_beauty_saihong">腮红</string>
+    <string name="patrecord_beauty_chunse">唇色</string>
+    <string name="patrecord_beauty_smooth_nor">瘦脸</string>
+    <string name="patrecord_beauty_on_little_face_nor">小脸</string>
+    <string name="patrecord_beauty_narrow_face_nor">窄脸</string>
+    <string name="patrecord_beauty_on_chin_nor">下巴</string>
+    <string name="patrecord_beauty_forehead_nor">额头</string>
+    <string name="patrecord_beauty_apple_muscle_nor">苹果肌</string>
+    <string name="patrecord_beauty_alar_base_resection_nor">缩鼻翼</string>
+    <string name="patrecord_beauty_nose_nor">鼻子</string>
+    <string name="patrecord_beauty_augmentation_rhinoplasty_nor">侧脸隆鼻</string>
+    <string name="patrecord_beauty_nasolabial_nor">去法令纹</string>
+    <string name="patrecord_beauty_philtrum_nor">人中</string>
+    <string name="patrecord_beauty_mouth_shape_nor">嘴型</string>
+    <string name="patrecord_beauty_big_eye_nor">大眼</string>
+    <string name="patrecord_beauty_eye_distance_nor">眼距</string>
+    <string name="patrecord_beauty_eye_angle_nor">眼睛角度</string>
+    <string name="patrecord_beauty_open_your_eyes_nor">开眼角</string>
+    <string name="patrecord_beauty_bright_eyes_nor">亮眼</string>
+    <string name="patrecord_beauty_black_eye_nor">去黑眼圈</string>
+    <string name="patrecord_beauty_white_fang_nor">白牙</string>
+
+
+    <string name="patrecord_shot_pre">预览</string>
+    <string name="patrecord_shot_next">下一步</string>
+    <string name="patrecord_shot_error">图片上传失败</string>
+    <string name="patrecord_shot_download_error">素材下载失败，请重试</string>
+    <string name="patrecord_is_exit">确定要放弃本次拍摄，并切换到所选素材吗？</string>
+    <string name="patrecord_is_not_wifi">当前网络不是wifi哦~,是否继续上传</string>
+    <string name="patrecord_tip_need_wifi_dialog_title">确定使用流量上传视频吗？</string>
+    <string name="patrecord_tip_need_net_count">需约%s流量</string>
+    <string name="patrecord_shot_error_open_caremar">请打开相机权限</string>
+    <string name="patrecord_shot_public_search">搜索用户</string>
+    <string name="patrecord_shot_public_search_ta">搜一搜你想找的TA</string>
+    <string name="patrecord_shot_public_search_error">未搜索到相关用户</string>
+    <string name="patrecord_shot_public_add_changle">发起话题</string>
+    <string name="patrecord_shot_public_add_changles">创建\n话题</string>
+    <string name="patrecord_shot_public_hot_changle">热门话题推荐</string>
+    <string name="patrecord_shot_public_hot_changle_search">搜索你要的话题</string>
+    <string name="patrecord_shot_public_indroduce_challenge">描述一下你的话题吧～</string>
+    <string name="patrecord_shot_public_success_challenge">话题创建成功 \\(•ㅂ•)/</string>
+    <string name="patrecord_shot_public_title_count_challenge">0/15</string>
+    <string name="patrecord_shot_public_content_count_challenge">0/60</string>
+    <string name="patrecord_shot_public_title_count_challenge1">/15</string>
+    <string name="patrecord_shot_public_content_count_challenge1">/60</string>
+    <string name="patrecord_shot_public_error_title_challenge1">超载啦，话题名称字数不能大于15字</string>
+    <string name="patrecord_shot_public_error_content_challenge1">超载啦，描述字数不能大于60字</string>
+    <string name="patrecord_shot_public_exist_challenge">您创建的话题已存在哦，是否立即参与</string>
+    <string name="patrecord_shot_public_exist_challenge_no_pass">您创建的话题已存在，还未通过审核，暂时无法使用</string>
+    <string name="patrecord_shot_public_exist_challenge_ok">立即参与</string>
+    <string name="patrecord_shot_public_exist_ok">好的</string>
+    <string name="patrecord_shot_public_exist_challenge_no">否</string>
+    <string name="patrecord_shot_public_error_challenge">创建话题失败</string>
+    <string name="patrecord_shot_public_add_challenge">我来发起</string>
+    <string name="patrecord_shot_public_no_challenge">还没人发起</string>
+    <string name="patrecord_shot_public_normal">现实</string>
+
+    <string name="patrecord_shot_public_dream">梦想</string>
+    <string name="patrecord_shot_public_no_data">无</string>
+    <string name="patrecord_shot_public_no_record">0.0秒</string>
+    <string name="patrecord_shot_public_no_records">00:00</string>
+    <string name="patrecord_shot_public_error_material">资源加载失败</string>
+
+    <!--音乐选择-->
+    <string name="patrecord_select_music_title">选择音乐</string>
+    <string name="patrecord_select_music_item_type_more">更多</string>
+    <string name="patrecord_select_music_item_recommend_hot">热门歌曲</string>
+    <string name="patrecord_select_music_item_recommend_collection">我的收藏</string>
+    <string name="patrecord_music_toast_success">音乐收藏成功！</string>
+    <string name="patrecor_music_toast_collection_cancel">取消收藏啦~</string>
+    <string name="patrecord_music_toast_collection_failure">收藏失败，稍后再试哦~</string>
+    <string name="patrecor_music_toast_collection_cancel_failure">取消收藏失败，稍后再试哦~</string>
+    <string name="patrecord_music_toast_download_failure">下载失败~</string>
+    <string name="patrecord_search_empty">全翻过了，什么都没找着Σ( ° △ °|||)</string>
+    <string name="patrecord_music_play_error">播放失败，等会儿再试试...</string>
+    <string name="patrecord_select_music_empty">全翻过了，没有找到相关音乐</string>
+    <string name="patrecord_select_all_music">全部音乐</string>
+    <string name="patrecord_select_collect_empty">您还没收藏音乐哦～</string>
+    <string name="patrecord_music_list">榜单</string>
+    <string name="patrecord_user_num">%s人使用过</string>
+
+    <string name="patrecord_volum_normal">原声</string>
+    <string name="patrecord_music_normal">配乐</string>
+    <string name="patrecord_music_selected">已选</string>
+    <string name="patrecord_music_class">音乐分类</string>
+    <string name="patrecord_music_all_class">全部分类</string>
+
+    <!--素材选择-->
+    <string name="patrecord_material_recent">最近</string>
+    <string name="patrecord_material_cos">一秒COS</string>
+    <string name="patrecord_material_face">戏精大本营</string>
+    <string name="patrecord_material_dance">尬舞小剧场</string>
+    <string name="patrecord_material_splitmirror">分镜</string>
+    <string name="patrecord_material_other">角色</string>
+
+    <!--速度选择-->
+    <string name="patrecord_slow">慢</string>
+    <string name="patrecord_normal">标准</string>
+    <string name="patrecord_fast">快</string>
+    <string name="pat_curent_dance_dcore">本场得分</string>
+    <string name="pat_dance_score_tips">你已进入舞王之巅\n恭喜你获得超级舞王的称号</string>
+    <string name="pat_dance_score_commit_text">练成神功</string>
+    <string name="pat_no_camera_permission">没有摄像头权限</string>
+    <string name="pat_no_audio_permisson">没有麦克风权限</string>
+    <string name="pat_comic_tips_none_net">当前网络不可用，请检查你的网络设置</string>
+    <string name="pat_carmear_audio_permisson">请打开摄像头和麦克风权限</string>
+    <string name="pat_retry">请重试</string>
+    <string name="pat_exit_dance">放弃加载</string>
+    <string name="pat_dance_soul_def_tips">灵魂舞者</string>
+    <string name="pat_dance_silver_def_tips">白银舞者</string>
+    <string name="pat_dance_glod_def_tips">黄金舞者</string>
+    <string name="pat_dance_diamond_def_tips">钻石舞者</string>
+    <string name="pat_dance_super_def_tips">超级舞者</string>
+    <string name="pat_dance_default_tips">你以进入舞王之巅\n恭喜你获得%s的称号</string>
+    <string name="pat_share_cancel">取消</string>
+    <string name="pat_share_sure">确定</string>
+    <string name="pat_share_title_string">分享给</string>
+    <string name="pat_private_letter">私信给</string>
+    <string name="pat_share_send">发送</string>
+    <string name="pat_share_say_friend_hint_string">给好友留言</string>
+
+
+    <!-- 视频发布 -->
+    <string name="republish_title">你有未发布的视频</string>
+    <string name="republish_content">已保存至草稿箱</string>
+    <string name="republish_left_btn">去草稿箱</string>
+    <string name="republish_right_btn">重新上传</string>
+    <string name="pat_dance_silence_tips">打开音量跟上节拍哦~</string>
+    <string name="pat_export_video_failed">导出舞蹈视频失败，请重新录制</string>
+    <string name="pat_friend_empty_string">暂无关注好友，这样怎么愉快玩耍！</string>
+    <!--分镜拍摄-->
+    <string name="pat_mirror_local_time_notify">请选择不低于窗格时间的视频哦</string>
+    <string name="pat_mirror_record">拍摄</string>
+    <string name="pat_mirror_edit">编辑</string>
+    <string name="pat_mirror_edit_duration">至少要保留视频的长度完整哦</string>
+    <string name="pat_mirror_edit_duration_0">至少要有一个视频从0S开始播放哦</string>
+    <string name="pat_dance_vedio_compose">舞蹈视频合成中</string>
+    <string name="pat_dance_vedio_compose_fail">舞蹈视频合成失败</string>
+    <string name="pat_time_string_0">00:00</string>
+    <string name="pat_dance_vedio_publish">发布</string>
+    <string name="pat_compose_cancel">放弃修炼</string>
+    <string name="pat_mirror_no_support_control">该模板不能调整窗格出现时间哦</string>
+    <string name="pat_mirror_no_support_control_music">该模板不能调整音乐哦</string>
+    <string name="pat_mirror_zero_volume_tip">请调大音量获得更好体验哦</string>
+    <!-- 发布预览页-->
+    <string name="pat_preview_choose_cover">封面选择</string>
+
+    <string name="patrecord_repeal">撤销</string>
+    <string name="patrecord_select">拆分</string>
+    <string name="patrecord_delete">删除</string>
+    <string name="patrecord_repeal_cut_point_tip">撤销拆分</string>
+    <string name="patrecord_repeal_cut_region_tip">撤销删除</string>
+    <string name="patrecord_video_surplus_insufficien_tip">剩余片段时长不足9秒，无法删除</string>
+
+    <string name="patrecord_added_sticker">已添加</string>
+    <string name="patrecord_select_add_sticker">选择位置后，点击贴纸添加</string>
+    <!-- 视频选择-->
+    <string name="pat_local_next">下一步（%s）</string>
+    <string name="pat_selected_duration">已选取%ss</string>
+    <string name="pat_video_duration_second">%ss</string>
+    <string name="pat_video_duration_minute">%sm</string>
+    <string name="pat_input_word_has_reached_limit">输入字数已达上线</string>
+    <string name="pat_please_enter_the_text">请输入文字</string>
+
+    <!-- 定点拍 -->
+    <string name="pat_point_stop_pop_warn">滑动音轨选择暂停点</string>
+    <string name="pat_point_stop_pop_reback">撤销</string>
+    <string name="pat_point_stop_pop_add">添加暂停点</string>
+    <string name="pat_point_stop_pop_title">定点停</string>
+
+    <string name="pat_to_load_ensure_that_the_network_flow">奋力加载中，请确保网络通畅</string>
+    <string name="pat_sticker_material_too_much">素材太多啦，最多允许添加十个素材</string>
+    <string name="sticker_material_error">贴纸素材缺失</string>
+
+    <string name="text_input_Limit">输入字数已达上限</string>
+    <string name="pat_music_use">使用</string>
+
+
+    <string name="pat_updgrade_tip">请升级最新版本使用</string>
+
+    <!--5G实时合拍-->
+    <string name="pat_together_inviter_exit_record">结束拍摄</string>
+    <string name="pat_together_invited_exit_record">退出拍摄</string>
+    <!-- 多人合拍 -->
+    <string name="pat_together_invited_limit">超过限制人数不可邀请</string>
+    <string name="pat_together_open_ar3d">开启你的3D虚拟形象</string>
+
+    <string name="patrecord_give_up_together">是否放弃该合拍？</string>
+    <string name="patrecord_give_up_answer_together">邀请者已结束合拍，是否放弃该合拍？</string>
+    <string name="patrecord_no_give_up">放弃</string>
+    <string name="patrecord_sure_cancel">取消</string>
+    <string name="patrecord_record_progress_time">%s秒</string>
+
+</resources>

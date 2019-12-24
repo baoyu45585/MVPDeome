@@ -1,0 +1,168 @@
+<resources>
+
+    <!--页面加载动画样式-->
+    <style name="Progress_Loading">
+        <item name="android:layout_width">@dimen/dimen_30dp</item>
+        <item name="android:layout_height">@dimen/dimen_30dp</item>
+        <item name="android:indeterminate">false</item>
+        <!--<item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:paddingBottom">0dp</item>-->
+        <item name="android:indeterminateDrawable">@drawable/wait_progress_animation_new</item>
+    </style>
+
+    <declare-styleable name="ColorPickerView">
+        <attr name="indicatorColor" format="color" /><!--指示点颜色-->
+        <attr name="indicatorEnable" format="boolean" /><!--是否启用指示点-->
+        <attr name="color_pick_orientation" format="integer">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PatRecordFocusImageView">
+        <attr name="focus_focusing_id" format="integer" />
+        <attr name="focus_success_id" format="integer" />
+        <attr name="focus_fail_id" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrollTrackView">
+        <attr name="background_color" format="color"></attr>
+        <attr name="foreground_color" format="color"></attr>
+        <attr name="space_size" format="dimension"></attr>
+        <attr name="track_item_width" format="dimension"></attr>
+        <attr name="track_fragment_count" format="integer" />
+        <attr name="auto_run" format="boolean" />
+        <attr name="cut_duration" format="integer" />
+        <attr name="loop_run" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="VideoEditOperateButton">
+        <attr name="image_src" format="reference"></attr>
+        <attr name="operate_text" format="string|reference"></attr>
+        <attr name="operate_text_color" format="color|reference"></attr>
+        <attr name="operate_text_color_enable" format="color|reference"></attr>
+        <attr name="button_enable" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="linearpointsview">
+        <attr name="count" format="integer" />
+        <attr name="select_color" format="color" />
+        <attr name="unselect_color" format="color" />
+        <attr name="pointsize" format="dimension" />
+        <attr name="pointstrokewidth" format="dimension" />
+        <attr name="anim_move_duration" format="integer" />
+        <attr name="anim_reset_duration" format="integer" />
+        <attr name="anim_shake_duration" format="integer" />
+        <attr name="islooper" format="boolean" />
+        <attr name="blur_radio" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="PatUserheadView">
+        <attr name="head_img_witdh" format="dimension" />
+
+        <attr name="isShowVipImg" format="boolean" />
+        <attr name="isSelf" format="boolean" />
+        <attr name="vipImg_marginLeft" format="dimension" />
+
+        <attr name="icon_size">
+            <enum name="big" value="1" />
+            <enum name="small" value="2" />
+        </attr>
+        <attr name="auth_margin" format="dimension" />
+
+        <attr name="border_overlay" format="boolean" />
+        <attr name="head_border_width" format="dimension" />
+        <attr name="head_border_color" format="color" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CenterSeekBar">
+        <attr name="maxProgress" format="integer" /> <!--max progress -->
+        <attr name="minProgress" format="integer" /> <!-- min minProgress -->
+        <attr name="width" format="dimension" /><!-- seekbar width needs <= seekbar veiw layout_width -->
+        <attr name="centerState" format="boolean" /> <!-- 是否 0 在中心 -->
+        <attr name="backColor" format="color" /><!-- 背景 拉条杆 底色 -->
+        <attr name="backHeight" format="dimension" /><!-- 背景 拉条杆 height -->
+        <attr name="backFrameColor" format="color" /><!-- 背景 圆角边框 描边-->
+        <attr name="backFrameSize" format="dimension" /><!-- 背景 圆角边框 宽度 -->
+        <attr name="progressColor" format="color" /><!--progress 进度 颜色-->
+        <attr name="progressHeight" format="dimension" /><!--progress height -->
+        <attr name="progressMinusColor" format="color" /><!-- 0在中心 时  负数 的颜色 -->
+        <attr name="progress" format="integer" /><!--当前 progress-->
+        <attr name="thumbNormalRadius" format="dimension" /><!-- thumb 圆 半径 -->
+        <attr name="thumbPressRadius" format="dimension" /><!-- thumb 圆 触摸时 半径 -->
+        <attr name="thumbColor" format="color" /><!-- thumb 圆 颜色 -->
+        <attr name="thumbTextSize" format="dimension" /><!--进度字体大小-->
+        <attr name="textLocation" format="float" /><!--进度字体位置-->
+        <attr name="thumbTextColor" format="color" /><!--进度字体 颜色-->
+        <attr name="textBackColor" format="color" /><!--进度字体 背景 颜色-->
+        <attr name="textBackRadius" format="dimension" /><!--进度字体背景 圆角矩形 弧度-->
+    </declare-styleable>
+
+    <declare-styleable name="SmoothCheckBox">
+        <attr name="duration" format="integer"/>
+        <attr name="box_stroke_width" format="dimension"/>
+        <attr name="color_tick" format="color"/>
+        <attr name="color_checked" format="color"/>
+        <attr name="color_unchecked" format="color"/>
+        <attr name="color_unchecked_stroke" format="color"/>
+    </declare-styleable>
+
+    <!--二段下拉刷新头部-->
+    <declare-styleable name="MiGuTwoLevelHeader">
+        <attr name="srlMaxRage" format="float"/>
+        <attr name="srlFloorRage" format="float"/>
+        <attr name="srlRefreshRage" format="float"/>
+        <attr name="srlFloorDuration" format="integer"/>
+        <attr name="srlEnableTwoLevel" format="boolean"/>
+        <attr name="srlEnablePullToCloseTwoLevel" format="boolean"/>
+    </declare-styleable>
+
+    <!-- SeekBar -->
+    <declare-styleable name="Theme">
+        <attr name="discreteSeekBarStyle" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="DiscreteSeekBar">
+        <attr name="dsb_min" format="integer|dimension"/>
+        <attr name="dsb_max" format="integer|dimension"/>
+        <attr name="dsb_value" format="integer|dimension"/>
+        <attr name="dsb_mirrorForRtl" format="boolean"/>
+        <attr name="dsb_allowTrackClickToDrag" format="boolean"/>
+        <attr name="dsb_progressColor" format="color|reference"/>
+        <attr name="dsb_trackColor" format="color|reference"/>
+        <attr name="dsb_indicatorTextAppearance" format="reference"/>
+        <attr name="dsb_indicatorColor" format="color|reference"/>
+        <attr name="dsb_indicatorElevation" format="dimension"/>
+        <attr name="dsb_indicatorFormatter" format="string|reference"/>
+        <attr name="dsb_rippleColor" format="color|reference"/>
+        <attr name="dsb_indicatorPopupEnabled" format="boolean"/>
+        <attr name="dsb_trackHeight" format="integer|dimension"/>
+        <attr name="dsb_trackBaseHeight" format="integer|dimension"/>
+        <attr name="dsb_scrubberHeight" format="integer|dimension"/>
+        <attr name="dsb_thumbSize" format="integer|dimension"/>
+        <attr name="dsb_indicatorSeparation" format="integer|dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="RadiusTextView">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressedColor" />
+        <attr name="rv_backgroundEnabledColor" />
+        <attr name="rv_radius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressedColor" />
+        <attr name="rv_strokeEnabledColor" />
+        <attr name="rv_textColor" />
+        <attr name="rv_textPressedColor" />
+        <attr name="rv_textEnabledColor" />
+        <attr name="rv_radiusHalfHeightEnable" />
+        <attr name="rv_widthHeightEqualEnable" />
+        <attr name="rv_topLeftRadius" />
+        <attr name="rv_topRightRadius" />
+        <attr name="rv_bottomLeftRadius" />
+        <attr name="rv_bottomRightRadius" />
+        <attr name="rv_rippleEnable" />
+    </declare-styleable>
+</resources>

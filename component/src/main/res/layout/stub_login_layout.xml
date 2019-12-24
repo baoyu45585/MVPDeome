@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:background="@color/white" >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_common_no_login"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/common_need_login"
+        android:textColor="@color/frame_color_666666"
+        style="@style/txt_size_28_level_3"/>
+
+    <Button
+        android:id="@+id/btn_login_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+
+        style="?android:attr/borderlessButtonStyle"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/common_login_now"
+        android:textColor="@color/white"
+        android:textSize="@dimen/frame_font_30"
+        />
+</LinearLayout>
