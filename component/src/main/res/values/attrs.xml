@@ -93,6 +93,7 @@
         <attr name="progress" format="integer" /><!--当前 progress-->
         <attr name="thumbNormalRadius" format="dimension" /><!-- thumb 圆 半径 -->
         <attr name="thumbPressRadius" format="dimension" /><!-- thumb 圆 触摸时 半径 -->
+        <attr name="thumbRecommendRadius" format="dimension" /><!-- 推荐点thumb 圆 半径 -->
         <attr name="thumbColor" format="color" /><!-- thumb 圆 颜色 -->
         <attr name="thumbTextSize" format="dimension" /><!--进度字体大小-->
         <attr name="textLocation" format="float" /><!--进度字体位置-->
